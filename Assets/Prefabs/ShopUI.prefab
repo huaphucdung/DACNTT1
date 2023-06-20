@@ -234,7 +234,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1944959870489343616}
   m_HandleRect: {fileID: 2403060037067212508}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 561463127554190747}
   - component: {fileID: 6975356579253709797}
   - component: {fileID: 1167023561154877677}
+  - component: {fileID: 136887551155878832}
   m_Layer: 5
   m_Name: ShopUI
   m_TagString: Untagged
@@ -429,6 +430,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &136887551155878832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229667628010624338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cfd8896dbed0d44f9d4f52237688d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1729372199003116093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +1881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508628476151696958, guid: 70a5425c1a9085e4490044f9faa424a9,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5155716257714752683, guid: 70a5425c1a9085e4490044f9faa424a9,
         type: 3}
